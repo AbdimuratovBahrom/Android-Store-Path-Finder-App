@@ -13,3 +13,8 @@ cd E:\StorePathFinderApp
 .\gradlew assembleDebug
 adb install -r app\build\outputs\apk\debug\app-debug.apk
 
+
+
+git add .gitignore
+git commit -m "Добавлен"
+git push
