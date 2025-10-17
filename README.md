@@ -1,19 +1,81 @@
-StorePathFinderApp - Android Studio project (skeleton)
-=====================================
+# 🏬 Store Path Finder App
 
-What this provides:
-- A small Android project that opens your site inside a fullscreen WebView.
-- SplashActivity shows a splash screen for 3 seconds, then starts MainActivity.
-- No address bar — the WebView is full screen.
-- Internet permission added.
+**Store Path Finder App** — Android-приложение, которое помогает посетителям быстро находить магазины и торговые точки на интерактивной карте торгового центра.
 
-How to use:
-1. Download and unzip this archive.
-2. Open the folder in Android Studio.
-3. Let Gradle sync. If plugin versions prompt updates, follow Android Studio recommendations.
-4. Replace the placeholder app icon (res/mipmap) and splash logo (activity_splash.xml ImageView src).
-5. Build -> Build Bundle(s) / APK(s) -> Build APK(s).
+Приложение открывает встроенную веб-карту и сайт проекта, что делает навигацию простой и удобной.
 
-Note:
-- The project uses minimal files so Android Studio may ask to upgrade Gradle plugin or Kotlin plugin.
-- If you want, send the app icon and I will place it into the project.
+---
+
+## 🚀 Основные функции
+
+- 🗺️ Просмотр карты торгового центра  
+- 🔍 Поиск магазинов по блокам  
+- 🌐 Быстрый переход на сайт проекта  
+- 📱 Совместимость с Android 7.0 и выше  
+- ⚡ Простота и скорость — без регистрации
+
+---
+
+## 🌍 Веб-версии проекта
+
+- 🔗 **Главный сайт:** [https://store-path-finder-app.onrender.com](https://store-path-finder-app.onrender.com)  
+- 🔗 **Карта торгового центра:** [https://abdimuratovbahrom.github.io/tashkent-trade-center/](https://abdimuratovbahrom.github.io/tashkent-trade-center/)
+
+---
+
+## 🧩 Структура проекта
+
+StorePathFinderApp/
+│
+├── app/
+│ ├── src/
+│ │ ├── main/
+│ │ │ ├── java/com/store/storepathfinder/ # Исходный код приложения
+│ │ │ ├── res/layout/ # Макеты интерфейса (XML)
+│ │ │ └── AndroidManifest.xml
+│ └── build.gradle
+│
+├── .gitignore
+├── build.gradle
+├── settings.gradle
+└── README.md
+
+
+
+
+---
+
+## 🖼️ Скриншоты приложения
+
+| Главное меню | Открытая карта |
+|---------------|----------------|
+| ![Главное меню](https://github.com/AbdimuratovBahrom/Android-Store-Path-Finder-App/assets/placeholder_main.jpg) | ![Карта](https://github.com/AbdimuratovBahrom/Android-Store-Path-Finder-App/assets/placeholder_map.jpg) |
+
+> 💡 Добавь свои реальные скриншоты в папку `/assets` и замени ссылки выше.
+
+---
+
+## ⚙️ Как собрать проект
+
+```bash
+# Клонировать репозиторий
+git clone https://github.com/AbdimuratovBahrom/Android-Store-Path-Finder-App.git
+
+# Перейти в папку проекта
+cd Android-Store-Path-Finder-App
+
+# Очистить проект
+./gradlew clean
+
+# Собрать APK (Debug)
+./gradlew assembleDebug
+
+
+👨‍💻 Автор проекта
+Абдимуратов Бахром
+📧 Email: (baxrom9791@gmail.com)
+🌐 GitHub: AbdimuratovBahrom
+https://t.me/WolfOfAlpha
+
+🏁 Лицензия
+Этот проект распространяется под лицензией MIT License — свободно используйте, модифицируйте и развивайте!
