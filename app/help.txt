@@ -1,0 +1,15 @@
+cd E:\StorePathFinderApp
+
+
+.\gradlew assembleDebug
+
+adb devices
+
+adb install -r app\build\outputs\apk\debug\app-debug.apk
+
+
+cd E:\StorePathFinderApp
+.\gradlew clean
+.\gradlew assembleDebug
+adb install -r app\build\outputs\apk\debug\app-debug.apk
+
