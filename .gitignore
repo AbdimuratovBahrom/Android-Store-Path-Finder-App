@@ -1,0 +1,47 @@
+# ==========================
+# Android & Gradle Ignore
+# ==========================
+
+# Gradle build folders
+/build/
+app/build/
+.gradle/
+
+# Local configuration files
+/local.properties
+/.idea/
+.idea/*
+*.iml
+
+# Log files
+logs.txt
+crash.txt
+*.log
+
+# Android Studio
+*.apk
+*.ap_
+captures/
+.externalNativeBuild/
+.cxx/
+output.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node.js (если есть WebView с node backend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment files
+.env
+*.keystore
+*.jks
+
+# Misc
+*.tmp
+*.temp
+*.bak
