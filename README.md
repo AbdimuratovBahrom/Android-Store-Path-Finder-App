@@ -49,7 +49,7 @@ StorePathFinderApp/
 
 | Главное меню | Открытая карта |
 |---------------|----------------|
-| ![Главное меню](https://github.com/AbdimuratovBahrom/Android-Store-Path-Finder-App/assets/img1.png) | ![Карта](https://github.com/AbdimuratovBahrom/Android-Store-Path-Finder-App/assets/block3.png) |
+| ![Главное меню](https://raw.githubusercontent.com/AbdimuratovBahrom/Android-Store-Path-Finder-App/main/assets/img1.png) | ![Карта](https://raw.githubusercontent.com/AbdimuratovBahrom/Android-Store-Path-Finder-App/main/assets/block3.png) |
 
 > 💡 Добавь свои реальные скриншоты в папку `/assets` и замени ссылки выше.
 
